@@ -26,7 +26,9 @@ the value of some variable $y$ given a variable $x$ as long as:
 And that's essentially what linear regression is.
 
 $$\large Everything\ has\ a\ pattern.$$
+
 $$\large Functions\ capture\ patterns.$$
+
 $$\large Complex\ patterns\ are\ captured\ by\ complex\ functions.$$
 
 No surprise now when we think about conversational AIs like ChatGPT.
