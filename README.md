@@ -118,7 +118,7 @@ We formally define a weight as:
 ## $$w_{jk}^L$$ 
 Represents a weight that connects $j_{th}$ neuron in layer $L$ - current layer - to $k_{th}$ neuron in layer $(L-1)$ - previous layer.
 
-*Example: $w_{27}^4$ represents a weight that connects $2_{nd}$ neuron in layer $4$ to $7_{th}$ neuron in layer $3$*
+Example: $w_{27}^4$ represents a weight that connects $2_{nd}$ neuron in layer $4$ to $7_{th}$ neuron in layer $3$
 
 <!-- insert picture of a weight between layer L and L-1 -->
 
@@ -145,19 +145,16 @@ $$
 
 ## $b_{j}^L$ 
 ### Represents a bias for the $j_{th}$ neuron in layer $L$
-*Example: $b_{4}^5$ represents the bias for the $4_{th}$ neuron
-in layer $5$*
+Example: $b_{4}^5$ represents the bias for the $4_{th}$ neuron in layer $5$
 
 ## $z_{j}^L$ 
 ### Represents weighted input for neuron $j$ in layer $L$
-*Example: $z_{4}^5$ represents the weighted input for the $4_{th}$ neuron
-in layer $5$*
+Example: $z_{4}^5$ represents the weighted input for the $4_{th}$ neuron in layer $5$
 
 
 ## $a_{j}^L$ 
 ### Represents activation for the $j_{th}$ neuron in layer $L$
-*Example: $a_{4}^5$ represents the activation for the $4_{th}$ neuron
-in layer $5$*
+Example: $a_{4}^5$ represents the activation for the $4_{th}$ neuron in layer $5$
 
 
 
@@ -165,11 +162,11 @@ in layer $5$*
 # Calculations
 The weighted input for a neuron $j$ in layer $L$ is calculated like this
 
-## $z_{j}^L = (\sum_{k=0}^k w_{jk}^L .a_{k}^{L-1})+b_{j}^L $
+## $$z_{j}^L = \left( \sum_{k=0}^k  w_{jk}^L . a_{k}^{L-1} \right) +b_{j}^L$$
 
 The activation for a neuron $j$ in layer $L$ is calculated like this
 
-## $a_{j}^L = \sigma(z_{j}^L)$
+## $$a_{j}^L = \sigma(z_{j}^L)$$
 
 
 # Vectorized Form
